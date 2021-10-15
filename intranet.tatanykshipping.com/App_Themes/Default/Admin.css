@@ -1,0 +1,415 @@
+﻿/*********************
+	Structure
+*********************/
+#admin-body
+{
+    background: #f3f9ff url(images/bg_blue.html) repeat-x top;
+    color: #202020;
+    margin: 0px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#admin-container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#admin-header
+{
+    width: 1024px;
+}
+
+#admin-header h2
+{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#admin-content
+{
+    width: 1000px;
+    float: left;
+    margin: 0px 0 10px 0;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+#admin-content h2
+{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+#admin-content a
+{
+    color: #385B88;
+    text-decoration: none; /*float:right;*/
+}
+#admin-content a:hover
+{
+    color: #385B88;
+    text-decoration: underline;
+}
+
+#admin-footer
+{
+    clear: both;
+    width: 1010px;
+    padding: 5px;
+    float: left;
+    background-color: #FFF;
+}
+
+.loginDisplay
+{
+    color: #FFF;
+}
+
+.loginDisplay a:link, .loginDisplay a:visited
+{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.loginDisplay a:hover
+{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.borderBottom
+{
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-image: url(images/border.html);
+}
+
+/*********************
+  TopMenu, Top-Panel
+*********************/
+#top-panel
+{
+    background: #FFF;
+    padding: 13px 5px 5px 5px;
+    height: 24px;
+    float: left;
+    width: 1010px;
+}
+#top-panel ul
+{
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+#top-panel ul li
+{
+    display: inline;
+    line-height: 24px;
+}
+#top-panel ul li a
+{
+    padding-left: 19px;
+    text-decoration: none;
+    margin: 0 3px 0 0;
+    color: #375b91;
+    display: inline-block;
+}
+
+#top-panel a
+{
+    padding: 0px;
+    text-decoration: none;
+    margin: 0px;
+    color: #375b91;
+    display: inline-block;
+}
+
+#top-panel a:hover
+{
+    text-decoration: underline;
+}
+
+/*********************
+	Icons
+*********************/
+.icon
+{
+    padding-left: 19px;
+    text-decoration: none;
+    height: 24px;
+    font-size: 12x;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.house
+{
+    background: transparent url(images/icons/go-home-2.ico) no-repeat left;
+    padding: 22px 0px 20px 20px;
+}
+.arrow_back
+{
+    background: transparent url(images/icons/arrow_back.png) no-repeat left;
+    padding: 20px 0px 20px 15px;
+}
+.user
+{
+    background: transparent url(images/icons/user_green.png) no-repeat left;
+}
+.useradd
+{
+    background: transparent url(images/icons/user_add.html) no-repeat left;
+}
+.go-home-5 {
+    background: transparent url(images/icons/go-home-5.ico) no-repeat left;
+    padding: 20px 0px 20px 20px;
+}
+.group
+{
+    background: transparent url(images/icons/group.html) no-repeat left;
+}
+.group_manage
+{
+    background: transparent url(images/icons/group_gear.html) no-repeat left;
+}
+.search
+{
+    background: transparent url(images/icons/magnifier.png) no-repeat left;
+}
+.mail-message-reply 
+{
+    background: transparent url(images/icons/mail-message-reply.ico) no-repeat left;
+    padding: 20px 0px 20px 20px;
+}
+.manage
+{
+    background: transparent url(images/icons/cog.html) no-repeat left;
+}
+.folder
+{
+    background: transparent url(images/icons/folder.html) no-repeat left;
+}
+.add
+{
+    background: transparent url(images/icons/add.png) no-repeat left;
+    padding: 20px 0px 20px 20px;
+}
+.add_user
+{
+    background: transparent url(images/icons/user_add.html) no-repeat left;
+}
+.edit
+{
+    background: transparent url(images/icons/user_edit.html) no-repeat left;
+}
+.view_columns
+{
+    background: transparent url(images/icons/application_view_columns.html) no-repeat left;
+}
+.view_details
+{
+    background: transparent url(images/icons/page_white_magnify.html) no-repeat left;
+    padding: 20px 0px 20px 20px;
+}
+
+.list
+{
+    background: transparent url(images/icons/view-list-multicolumn-4.ico) no-repeat left;
+     padding: 20px 0px 20px 20px;
+}
+.master_shipnet_data
+{
+    background: transparent url(images/icons/update_shpnetdata.png) no-repeat left;
+     padding: 20px 0px 20px 20px;
+}
+
+.upload
+{
+    background: transparent url(images/icons/arrow_top.html) no-repeat left;
+}
+.change
+{
+    background: transparent url(images/icons/arrow_next.html) no-repeat left;
+}
+.coins
+{
+    background: transparent url(images/icons/coins.html) no-repeat left;
+}
+.cart
+{
+    background: transparent url(images/icons/cart.html) no-repeat left;
+}
+.photo
+{
+    background: transparent url(images/icons/page_white_camera.html) no-repeat left;
+}
+.report
+{
+    background: transparent url(images/icons/report.html) no-repeat left;
+}
+.find
+{
+    background: transparent url(images/icons/page_find.html) no-repeat left;
+}
+.email
+{
+    background: transparent url(images/icons/email.html) no-repeat left;
+}
+.group_gear
+{
+    background: transparent url(images/icons/group_gear.html) no-repeat left;
+}
+.statistics
+{
+    background: transparent url(images/icons/statistics.html) no-repeat left;
+}
+.document_move
+{
+    background: transparent url(images/icons/document_move.html) no-repeat left;
+}
+.coins_in_hand
+{
+    background: transparent url(images/icons/coins_in_hand.html) no-repeat left;
+}
+.ms_exchange
+{
+    background: transparent url(images/icons/ms_exchange.html) no-repeat left;
+}
+
+/*NEW ADDED FOR STUDENT*/
+.myprofile
+{
+    background: transparent url(images/icons/application_view_columns.html) no-repeat left;
+}
+.batch
+{
+    background: transparent url(images/icons/images.html) no-repeat left;
+}
+.feepayment
+{
+    background: transparent url(images/icons/account_balances.html) no-repeat left;
+}
+.registernewbatch
+{
+    background: transparent url(images/icons/image_add.html) no-repeat left;
+}
+.batchchange
+{
+    background: transparent url(images/icons/images.html) no-repeat left;
+}
+.download
+{
+    background: transparent url(images/icons/download.html) no-repeat left;
+}
+.axixbank
+{
+    background: transparent url(images/icons/axislogo.html) no-repeat left;
+}
+.inbox
+{
+    background: transparent url(images/icons/email.html) no-repeat left;
+}
+.announc
+{
+    background: transparent url(images/icons/events.html) no-repeat left;
+}
+.helpdesk
+{
+    background: transparent url(images/icons/question.html) no-repeat left;
+}
+.changepass
+{
+    background: transparent url(images/icons/change_password.png) no-repeat left;
+}
+.loggedout
+{
+    background: transparent url(images/icons/logout.png) no-repeat left;
+}
+.forgot_pass
+{
+    background: transparent url(images/icons/unassigned.ico) no-repeat left;
+}
+/*NEW ADDED FOR FRANCHISEE*/
+.f_studentdetails
+{
+    background: transparent url(images/icons/user-green.ico) no-repeat left;
+}
+.f_feedetails
+{
+    background: transparent url(images/icons/account_balances.html) no-repeat left;
+}
+.f_offline
+{
+    background: transparent url(images/icons/wishlist_add.html) no-repeat left;
+}
+.f_swipefee
+{
+    background: transparent url(images/icons/card_back.html) no-repeat left;
+}
+.f_issue
+{
+    background: transparent url(images/icons/books.html) no-repeat left;
+}
+.f_studey
+{
+    background: transparent url(images/icons/education.html) no-repeat left;
+}
+.f_daily
+{
+    background: transparent url(images/icons/hand.html) no-repeat left;
+}
+.f_materialorder
+{
+    background: transparent url(images/icons/attributes_display.html) no-repeat left;
+}
+.f_requestmaterial
+{
+    background: transparent url(images/icons/application_edit.html) no-repeat left;
+}
+.f_registrationmanager
+{
+    background: transparent url(images/icons/setting_tools.html) no-repeat left;
+}
+.f_materialorder
+{
+    background: transparent url(images/icons/attributes_display.html) no-repeat left;
+}
+
+#Progress
+{
+    position: fixed;
+    top: 10%;
+    left: 10px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border: solid 3px black;
+}
+
+.loader
+{
+    margin: 0px auto 0px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+#apDiv1 {
+position: absolute;
+left: 45%;
+top:0px;
+width: 150px;
+height: 50px;
+z-index: 3;
+background-image: url(bgimg.html);
+background-color:#f7ebbe;
+border:solid 1px #edc06d;
+position:fixed;
